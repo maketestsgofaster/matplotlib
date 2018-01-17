@@ -144,6 +144,8 @@ install:
         pytest-xdist \
         $INSTALL_PEP8
 
+    pip install git+https://github.com/maketestsgofaster/python
+
     # Use the special local version of freetype for testing
     cp ci/travis/setup.cfg .
   - |
